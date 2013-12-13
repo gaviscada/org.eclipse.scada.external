@@ -93,4 +93,75 @@
          version="2.0.1.v201105210651"
          unpack="false"/>
 
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="0"
+         install-size="0"
+         version="3.2.0.v2013030210310"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="0"
+         install-size="0"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="javax.annotation"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v201209060031"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="0"
+         install-size="0"
+         version="1.0.7.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="0"
+         install-size="0"
+         version="1.0.7.v20121108-1250"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="javax.ws.rs"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.v20130318-1750"
+         unpack="false"/>
+
+   <plugin
+         id="javax.inject"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20091030"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet"
+         download-size="0"
+         install-size="0"
+         version="3.0.0.v201112011016"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
