@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><site>
-   <feature id="org.eclipse.scada.external" url="features/org.eclipse.scada.external_0.1.0.v20131217-0842.jar" version="0.1.0.v20131217-0842">
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.scada.external_0.1.0.qualifier.jar" id="org.eclipse.scada.external" version="0.1.0.qualifier">
       <category name="org.eclipse.scada.external.category"/>
    </feature>
-   <feature id="org.eclipse.scada.external.sdk" url="features/org.eclipse.scada.external.sdk_0.1.0.v20140122-1129.jar" version="0.1.0.v20140122-1129">
+   <feature url="features/org.eclipse.scada.external.sdk_0.1.0.qualifier.jar" id="org.eclipse.scada.external.sdk" version="0.1.0.qualifier">
       <category name="org.eclipse.scada.external.sdk.category"/>
    </feature>
-   <feature id="org.eclipse.scada.external.orbit" url="features/org.eclipse.scada.external.orbit_0.1.0.v20131216-1459.jar" version="0.1.0.v20131216-1459">
+   <feature url="features/org.eclipse.scada.external.orbit_0.1.0.qualifier.jar" id="org.eclipse.scada.external.orbit" version="0.1.0.qualifier">
       <category name="org.eclipse.scada.external.category"/>
    </feature>
-   <category-def label="3rd party libraries used by Eclipse SCADA (Incubation)" name="org.eclipse.scada.external.category"/>
-   <category-def label="3rd party libraries used by Eclipse SCADA (SDK) (Incubation)" name="org.eclipse.scada.external.sdk.category"/>
+   <category-def name="org.eclipse.scada.external.category" label="3rd party libraries used by Eclipse SCADA (Incubation)"/>
+   <category-def name="org.eclipse.scada.external.sdk.category" label="3rd party libraries used by Eclipse SCADA (SDK) (Incubation)"/>
 </site>
