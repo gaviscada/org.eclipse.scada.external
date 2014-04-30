@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feature
-      id="org.eclipse.scada.external.sdk"
-      label="%featureName"
-      version="0.1.0.qualifier"
-      provider-name="%providerName">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><feature id="org.eclipse.scada.external.sdk" label="%featureName" provider-name="%providerName" version="0.1.0.v20140430-1526">
 
    <description>
       %description
@@ -17,8 +12,6 @@
       %license
    </license>
 
-   <includes
-         id="org.eclipse.scada.external"
-         version="0.0.0"/>
+   <includes id="org.eclipse.scada.external" version="0.0.0"/>
 
 </feature>
