@@ -3,12 +3,12 @@ Export-Package: org.apache.commons.daemon;version="1.0.15",org.apache.
  commons.daemon.support;version="1.0.15";uses:="org.apache.commons.dae
  mon"
 Bundle-Vendor: %providerName
-Bundle-Version: 1.0.15.v20140430-1526
-Bundle-Name: %pluginName
+Bundle-Version: 1.0.15.v20140430-1536
 Bundle-Localization: plugin
+Bundle-Name: %pluginName
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
-Bundle-DocURL: http://commons.apache.org/proper/commons-daemon/
 Bundle-SymbolicName: org.apache.commons.daemon
+Bundle-DocURL: http://commons.apache.org/proper/commons-daemon/
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 
