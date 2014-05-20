@@ -140,15 +140,17 @@ Export-Package: org.apache.mina.core;version="2.0.7";uses:="org.apache
  til;version="2.0.7";uses:="org.slf4j",org.apache.mina.util.byteaccess
  ;version="2.0.7";uses:="org.apache.mina.core.buffer"
 Bundle-Vendor: %providerName
-Bundle-Version: 2.0.7.v20140506-1700
-Bundle-Name: %pluginName
+Bundle-Version: 2.0.7.v20140520-1210
 Bundle-Localization: plugin
+Bundle-Name: %pluginName
 Bundle-ManifestVersion: 2
-Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
 Bundle-Description: Apache MINA is a network application framework whi
  ch helps users develop high performance and highlyscalable network ap
  plications easily. It provides an abstract event-driven asynchronous 
  API over various transports such as TCP/IP and UDP/IP via Java NIO.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-DocURL: http://mina.apache.org/
+Bundle-SymbolicName: org.apache.mina.core
 Import-Package: javax.crypto,javax.crypto.spec,javax.net.ssl,javax.sec
  urity.sasl,org.apache.mina.core;version="2.0.2",org.apache.mina.core.
  buffer;version="2.0.2",org.apache.mina.core.file;version="2.0.2",org.
@@ -183,6 +185,4 @@ Import-Package: javax.crypto,javax.crypto.spec,javax.net.ssl,javax.sec
  version="2.0.2",org.apache.mina.transport.vmpipe;version="2.0.2",org.
  apache.mina.util;version="2.0.2",org.apache.mina.util.byteaccess;vers
  ion="2.0.2",org.ietf.jgss,org.slf4j;version="1.5"
-Bundle-SymbolicName: org.apache.mina.core
-Bundle-DocURL: http://mina.apache.org/
 
