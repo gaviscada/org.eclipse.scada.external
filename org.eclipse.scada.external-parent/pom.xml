@@ -30,13 +30,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-		
-		<repository>
-			<id>org.eclipse.scada.external-repo</id>
-			<name>Eclipse SCADA Externals Wrapper</name>
-			<layout>p2</layout>
-			<url>file:${basedir}/../org.eclipse.scada.external-repo/repo</url>
-		</repository>
 	</repositories>
 
 	<modules>
@@ -49,11 +42,23 @@
 		<module>../org.eclipse.scada.external.wrapper.feature</module>
 
 		<module>../org.apache.commons.daemon</module>
-		
-		<!-- use version from orbit : S20140428023358
-		<module>../org.apache.mina.core</module>
-		<module>../org.apache.mina.filter.compression</module>
-		-->
 	</modules>
+
+	<profiles>
+		<profile>
+			<id>nightly</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<repository>
+					<id>eclipse.scada.external.wrapper</id>
+					<name>Eclipse SCADA Externals Wrapper</name>
+					<layout>p2</layout>
+					<url>file:${basedir}/../org.eclipse.scada.external-repo/repo</url>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
 
 </project>
