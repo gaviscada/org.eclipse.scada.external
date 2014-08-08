@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='Eclipse SCADA Externals Wrapper' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='3'>
-    <property name='p2.timestamp' value='1403854625604'/>
+    <property name='p2.timestamp' value='1406040892807'/>
     <property name='publishPackFilesAsSiblings' value='true'/>
     <property name='p2.compressed' value='false'/>
   </properties>

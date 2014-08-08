@@ -2,7 +2,7 @@
 <?metadataRepository version='1.1.0'?>
 <repository name='Eclipse SCADA Externals Wrapper' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1403854625606'/>
+    <property name='p2.timestamp' value='1406040892809'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <units size='6'>
